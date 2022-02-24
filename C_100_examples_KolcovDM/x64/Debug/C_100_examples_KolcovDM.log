@@ -1,0 +1,6 @@
+﻿  main.c
+D:\CODE\C\repos\C_100_examples_KolcovDM\C_100_examples_KolcovDM\main.c(34,13): warning C4473: 'scanf_s' : not enough arguments passed for format string
+D:\CODE\C\repos\C_100_examples_KolcovDM\C_100_examples_KolcovDM\main.c(34,13): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+D:\CODE\C\repos\C_100_examples_KolcovDM\C_100_examples_KolcovDM\main.c(34,13): message : the missing variadic argument 2 is required by format string '%c'
+D:\CODE\C\repos\C_100_examples_KolcovDM\C_100_examples_KolcovDM\main.c(34,13): message : this argument is used as a buffer size
+  C_100_examples_KolcovDM.vcxproj -> D:\CODE\C\repos\C_100_examples_KolcovDM\x64\Debug\C_100_examples_KolcovDM.exe
