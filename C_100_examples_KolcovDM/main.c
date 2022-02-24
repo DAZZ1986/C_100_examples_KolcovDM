@@ -6,11 +6,11 @@ int main(int argc, char* argv[])
 {   
     char* locale = setlocale(LC_ALL, "");
 
-    printf("/////////// 100 РїСЂРёРјРµСЂРѕРІ РЅР° РЎРё РљРѕР»СЊС†РѕРІ Р”.Рњ.\n");
+    printf("/////////// 100 примеров на Си Кольцов Д.М.\n");
 
-    //РЎСѓРјРјР° РґРІСѓС… С‡РёСЃРµР» (СЃ.19)   
+    //Сумма двух чисел (с.19)   
     /*
-    printf("//////Р’РІРµРґРёС‚Рµ РґРІР° С†РµР»С‹С… С‡РёСЃР»Р°.\n");
+    printf("//////Введите два целых числа.\n");
     int first, second, sum;
     scanf_s("%d %d", &first, &second);
 
@@ -19,7 +19,7 @@ int main(int argc, char* argv[])
     */
      
 
-    //РЈРјРЅРѕР¶РµРЅРёРµ РґРІСѓС… РІРµС‰РµСЃС‚РІРµРЅРЅС‹С… С‡РёСЃРµР» (СЃ.20)
+    //Умножение двух вещественных чисел (с.20)
     /*
     double a, b, c;
     scanf_s("%lf %lf", &a, &b);
@@ -28,21 +28,28 @@ int main(int argc, char* argv[])
     */
 
 
-    //РћРїСЂРµРґРµР»РµРЅРёРµ ASCII Р·РЅР°С‡РµРЅРёСЏ СЃРёРјРІРѕР»Р° (СЃРёРјРІРѕР» РІ dec) (СЃ.21)
+    //Определение ASCII значения символа (символ в dec) (с.21)
     /*
     char c;
-    printf("Р’РІРµРґРёС‚Рµ СЃРёРјРІРѕР»:");
+    printf("Введите символ:");
 
     scanf_s("%c", &c);
-    printf("ASCII-РєРѕРґ %c = %d \n", c, c);
+    printf("ASCII-код %c = %d \n", c, c);
     */
 
 
+    //Вычисляем частное и остаток от деления
+    int dividend, divisor, quotient, remainder;
 
+    printf("Введите делимое:");
+    scanf_s("%d ", &dividend);
+    printf("Введите делитель:");
+    scanf_s("%d ", &divisor);
 
-
-
-
+    quotient = dividend / divisor;
+    remainder = dividend % divisor;
+    printf("Частное = %d \n", quotient);
+    printf("Остаток = %d \n", remainder);
 
 
 
