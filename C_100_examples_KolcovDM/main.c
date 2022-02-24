@@ -50,7 +50,9 @@ int main(int argc, char* argv[])
     remainder = dividend % divisor;
     printf("Частное = %d \n", quotient);
     printf("Остаток = %d \n", remainder);
-    */
+    */ 
+
+    //здравствуйте
 
 
 
