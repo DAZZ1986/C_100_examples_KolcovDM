@@ -6,11 +6,11 @@ int main(int argc, char* argv[])
 {   
     char* locale = setlocale(LC_ALL, "");
 
-    printf("/////////// 100 примеров на Си Кольцов Д.М.\n");
+    printf("/////////// 100 РїСЂРёРјРµСЂРѕРІ РЅР° РЎРё РљРѕР»СЊС†РѕРІ Р”.Рњ.\n");
 
-    //Сумма двух чисел (с.19)   
+    //summa-dvuh-chisel (s-19)   
     /*
-    printf("//////Введите два целых числа.\n");
+    printf("//////vvedite-dva-celyh-chisla.\n");
     int first, second, sum;
     scanf_s("%d %d", &first, &second);
 
@@ -19,7 +19,7 @@ int main(int argc, char* argv[])
     */
      
 
-    //Умножение двух вещественных чисел (с.20)
+    //umnozhenie-dvuh-veshchestvennyh-chisel (s-20)
     /*
     double a, b, c;
     scanf_s("%lf %lf", &a, &b);
@@ -28,29 +28,29 @@ int main(int argc, char* argv[])
     */
 
 
-    //Определение ASCII значения символа (символ в dec) (с.21)
+    //opredelenie-ascii-znacheniya-simvola (simvol-v-dec) (s-21)
     /*
     char c;
-    printf("Введите символ:");
+    printf("Р’РІРµРґРёС‚Рµ СЃРёРјРІРѕР»:");
 
     scanf_s("%c", &c);
-    printf("ASCII-код %c = %d \n", c, c);
+    printf("ASCII-РєРѕРґ %c = %d \n", c, c);
     */
 
-
-    //Вычисляем частное и остаток от деления
+    /*
+    //vychislyaem-chastnoe-i-ostatok-ot-deleniya
     int dividend, divisor, quotient, remainder;
 
-    printf("Введите делимое:");
+    printf("Р’РІРµРґРёС‚Рµ РґРµР»РёРјРѕРµ:");
     scanf_s("%d ", &dividend);
-    printf("Введите делитель:");
+    printf("Р’РІРµРґРёС‚Рµ РґРµР»РёС‚РµР»СЊ:");
     scanf_s("%d ", &divisor);
 
     quotient = dividend / divisor;
     remainder = dividend % divisor;
-    printf("Частное = %d \n", quotient);
-    printf("Остаток = %d \n", remainder);
-
+    printf("Р§Р°СЃС‚РЅРѕРµ = %d \n", quotient);
+    printf("РћСЃС‚Р°С‚РѕРє = %d \n", remainder);
+    */
 
 
 
