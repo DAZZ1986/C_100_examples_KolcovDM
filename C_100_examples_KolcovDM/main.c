@@ -1,4 +1,4 @@
-#include <locale.h>
+﻿#include <locale.h>
 #include <stdio.h>
 
 
@@ -37,7 +37,7 @@ int main(int argc, char* argv[])
     printf("ASCII-код %c = %d \n", c, c);
     */
 
-    /*
+    
     //vychislyaem-chastnoe-i-ostatok-ot-deleniya
     int dividend, divisor, quotient, remainder;
 
@@ -50,9 +50,9 @@ int main(int argc, char* argv[])
     remainder = dividend % divisor;
     printf("Частное = %d \n", quotient);
     printf("Остаток = %d \n", remainder);
-    */ 
+    
 
-    //здравствуйте
+    //здравствуйте 
 
 
 
