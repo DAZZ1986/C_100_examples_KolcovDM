@@ -84,6 +84,11 @@ int main(int argc, char* argv[])
     */
 
 
+
+
+
+
+
     //Chapter 2 (page 33)
     /*
     //Является ли число четным
@@ -116,14 +121,150 @@ int main(int argc, char* argv[])
     }
     */
 
+    /*
+    //является ли год весокосным
+    int year;
+    printf("Введите год: \n");
+    scanf_s("%d ", &year);
+
+    if (year % 4 == 0)
+    {
+        if (year % 100 == 0)
+        {
+            if (year % 400 == 0)
+                printf("Весокосный");
+            else
+                printf("Не весокосный");
+        }
+        else
+        {
+            printf("Весокосный");
+        }
+    }
+    else
+    {
+        printf("Не весокосный");
+    }
+    */
+
+    /*
+    //является ли число отрицательным или положительным (page 42)
+    int num;
+    printf("Введите число: \n");
+    scanf_s("%d", &num);
+
+    if (num <= 0.0)
+        if (num == 0.0)
+            printf("Вы ввели 0 \n");
+        else
+            printf("Отрицательное \n");
+    else
+        printf("Положительное \n");
+    */
+    
+    /*
+    //вычислояем сумму натуральных чисел
+    int n, sum=0;
+    printf("Введите число: \n");
+    scanf_s("%d ", &n);
+    
+    for (int i = 1; i <= n; i++)
+    {
+        printf("%d ", sum);
+        sum += i;
+        printf("+ %d = %d\n", i, sum);
+    }
+    printf("Сумма чисел n = %d", sum);
+    */
+    
+    /*
+    //вычисляем факториал (page 51)
+    int n;
+    unsigned long long factorial = 1;
+    printf("Введите число: \n");
+    scanf_s("%d ", &n);
+
+    for (int i = 1; i <= n; i++)
+    {
+        factorial *= i;  // !5 = 1 * 2 * 3 * 4 * 5 = 120 (factorial)
+
+    }
+    printf("Факториал числа %d = %d", n, factorial);
+    */
+
+    /*
+    //выводим таблицу умножения (page 52)
+    int n;
+    int res;
+    printf("Введите число: \n");
+    scanf_s("%d ", &n);
+
+    for (int i = 1; i <= 10; i++)
+    {
+        printf("%d ", n);
+        res = n * i;
+        printf("* %d = %d \n", i, res);
+    }
+    */
+
+    /*
+    //вычисляем степень числа (page 62)
+    int num;
+    int n;
+    int res=1;
+    printf("Введите число: \n");
+    scanf_s("%d ", &num);
+    printf("Введите степень: \n");
+    scanf_s("%d ", &n);
+
+    for (int i = 1; i <= n; i++)
+    {
+        res *= num;
+    }
+    printf("Число %d в степени %d = %d \n", num, n, res);
+    */
+
+    /*
+    //простой калькулятор со switch case (page 75)
+    char operator;
+    double firstNum, secondNum;
+
+    printf("Введите оператор + - * /: ");
+    scanf_s("%c", &operator);
+    printf("Введите два операнда: ");
+    scanf_s("%lf %lf", &firstNum, &secondNum);
+
+    switch (operator)
+    {
+        case '+': printf("%lf + %lf = %lf", firstNum, secondNum, firstNum + secondNum);
+            break;
+
+        case '-': printf("%lf - %lf = %lf", firstNum, secondNum, firstNum - secondNum);
+            break;   
+
+        case '*': printf("%lf * %lf = %lf", firstNum, secondNum, firstNum * secondNum);
+            break;
+
+        case '/': 
+            if (secondNum != 0)
+                printf("%lf / %lf = %lf", firstNum, secondNum, firstNum / secondNum);
+            else
+                printf("Деление на 0 запрещено!");
+            break; 
+
+        default: printf("Введен не корректный оператор!");
+    }
+    */
 
 
 
 
+    
+    
+    
+    
 
-
-
-
+    //Chapter 3 Functions (page 77)
 
 
     printf("\n\n\n\n");
