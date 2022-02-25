@@ -1,5 +1,15 @@
 ﻿#include <locale.h>
 #include <stdio.h>
+#include <math.h>
+
+
+//example 37. Факториал с использованием рекурсии
+long int fact(int n);
+
+//example 39. Конвертируем двоичные числа в десятичные и наоборот
+int convertBinaryToDecimal(long long n);
+long long convertDecimalToBinary(int n);
+
 
 
 int main(int argc, char* argv[])
@@ -266,7 +276,113 @@ int main(int argc, char* argv[])
 
     //Chapter 3 Functions (page 77)
 
+    /*
+    //example 37. Факториал с использованием рекурсии
+    int n;
+    printf("Введите положительное число: ");
+    scanf_s("%d ", &n);
+    printf("Факториал %d = %ld\n", n, fact(n));
+    */
+    
+    /*
+    //example 39. Конвертируем двоичные числа в десятичные и наоборот   НЕ РАБОТАЕТ!
+    long long n=0;
+    printf("Введите двоичное число: ");
+    scanf_s("%lld", n);
+    printf("%lld (двоичное) = %d (десятичное) \n", n, convertBinaryToDecimal(n));
+    
+    printf("Введите десятичное число: ");
+    scanf_s("%d", n);
+    printf("%d (десятичное) = %dll (двоичное) \n", n, convertDecimalToBinary(n));
+    */
+
+    //сделать свои функции с возвращающими значение, целое, массив, строку. (использовать в параметрах значние по умолчанию)
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    //Chapter 3 Array and Pointers (page 99)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     printf("\n\n\n\n");
     return 0;
+}
+
+
+//example 37. Факториал с использованием рекурсии
+long int fact(int n)
+{
+    if (n >= 1)
+        return n * fact(n - 1);
+    else
+        return 1;
+}
+
+
+
+
+//example 39. Конвертируем двоичные числа в десятичные и наоборот
+int convertBinaryToDecimal(long long n)
+{
+    int decimalNumber = 0, i = 0, reminder;
+    while (n != 0)
+    {
+        reminder = n % 10;
+        n /= 10;
+        decimalNumber += reminder * pow(2, i);
+        ++i;
+    }
+    return decimalNumber;
+}
+
+long long convertDecimalToBinary(int n)
+{
+    long long binaryNumber = 0;
+    int reminder, i = 1, step = 1;
+    while (n != 0)
+    {
+        reminder = n % 2;
+        printf("Шаг %d: %d/2, Остаток = %d, Частоное = %d \n", step++, n, reminder, n/2);
+        n /= 2;
+        binaryNumber += reminder * i;
+        i *= 10;
+    }
+    return binaryNumber;
 }

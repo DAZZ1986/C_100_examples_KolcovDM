@@ -1,6 +1,14 @@
 ﻿  main.c
-D:\CODE\C\repos\C_100_examples_KolcovDM\C_100_examples_KolcovDM\main.c(229,13): warning C4473: 'scanf_s' : not enough arguments passed for format string
-D:\CODE\C\repos\C_100_examples_KolcovDM\C_100_examples_KolcovDM\main.c(229,13): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
-D:\CODE\C\repos\C_100_examples_KolcovDM\C_100_examples_KolcovDM\main.c(229,13): message : the missing variadic argument 2 is required by format string '%c'
-D:\CODE\C\repos\C_100_examples_KolcovDM\C_100_examples_KolcovDM\main.c(229,13): message : this argument is used as a buffer size
+D:\CODE\C\repos\C_100_examples_KolcovDM\C_100_examples_KolcovDM\main.c(290,13): warning C4477: 'scanf_s' : format string '%lld' requires an argument of type '__int64 *', but variadic argument 1 has type '__int64'
+D:\CODE\C\repos\C_100_examples_KolcovDM\C_100_examples_KolcovDM\main.c(294,13): warning C4477: 'scanf_s' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type '__int64'
+D:\CODE\C\repos\C_100_examples_KolcovDM\C_100_examples_KolcovDM\main.c(295,96): warning C4244: 'function': conversion from '__int64' to 'int', possible loss of data
+D:\CODE\C\repos\C_100_examples_KolcovDM\C_100_examples_KolcovDM\main.c(295,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type '__int64'
+D:\CODE\C\repos\C_100_examples_KolcovDM\C_100_examples_KolcovDM\main.c(295,12): message : consider using '%lld' in the format string
+D:\CODE\C\repos\C_100_examples_KolcovDM\C_100_examples_KolcovDM\main.c(295,12): message : consider using '%Id' in the format string
+D:\CODE\C\repos\C_100_examples_KolcovDM\C_100_examples_KolcovDM\main.c(295,12): message : consider using '%I64d' in the format string
+D:\CODE\C\repos\C_100_examples_KolcovDM\C_100_examples_KolcovDM\main.c(295,12): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type '__int64'
+D:\CODE\C\repos\C_100_examples_KolcovDM\C_100_examples_KolcovDM\main.c(295,12): message : consider using '%lld' in the format string
+D:\CODE\C\repos\C_100_examples_KolcovDM\C_100_examples_KolcovDM\main.c(295,12): message : consider using '%Id' in the format string
+D:\CODE\C\repos\C_100_examples_KolcovDM\C_100_examples_KolcovDM\main.c(295,12): message : consider using '%I64d' in the format string
+D:\CODE\C\repos\C_100_examples_KolcovDM\C_100_examples_KolcovDM\main.c(350,35): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
   C_100_examples_KolcovDM.vcxproj -> D:\CODE\C\repos\C_100_examples_KolcovDM\x64\Debug\C_100_examples_KolcovDM.exe
